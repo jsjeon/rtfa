@@ -1,0 +1,14 @@
+109,113d108
+< 
+< RTFA_MODULES = struct rtfa_types rtfa_cg \
+< 	m_automata p_automata poolselection \
+< 	f_automata affinity transformer rtfa
+< 
+117c112
+< CILLY_MODULES = $(CILLY_LIBRARY_MODULES) $(RTFA_MODULES) main
+---
+> CILLY_MODULES = $(CILLY_LIBRARY_MODULES) main
+120c115
+< SOURCEDIRS  += src src/frontc src/ext src/ext/pta src/ext/rtfa ocamlutil @EXTRASRCDIRS@
+---
+> SOURCEDIRS  += src src/frontc src/ext src/ext/pta ocamlutil @EXTRASRCDIRS@
